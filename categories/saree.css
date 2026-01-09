@@ -1,0 +1,109 @@
+.saree-div{
+    height: 470vh;
+    width: 100%;
+}
+.saree-div h1{
+    font-size: 50px;
+    font-family:'ariel';
+    color: black;
+    font-weight: 600px;
+    letter-spacing: 0.5px;
+    line-height: 1.4;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-left: 430px;
+    margin-top: 60px;
+}
+.div-p{
+    margin-top: 40px;
+    margin-left: 400px;
+    height: 200px;
+    width: 500px;
+    text-align:center;
+}
+.saree-div p{
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'ariel';
+    color: gray;
+    
+}
+
+
+/* image styling */
+.saree-imgdiv{
+    height: 200vh;
+    width: 98%;
+    margin-top: 20px;
+    display: flex;
+     flex-wrap: wrap;
+    gap: 30px;
+    
+}
+.saree-img{
+    width:400px;
+    height: 400px;
+    margin-bottom: 180px;
+}
+.saree-img img{
+    transition: transform 0.5s ease, filter 0.3s ease;
+    margin-left: 80px;
+    height:400px ;
+    width:300px ;
+    
+}
+.saree-img img:hover{
+    transform: scale(1.1);
+}
+.saree-imgdiv .saree-img h1{
+    font-family: 'ariel';
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+    font-weight:400;
+    font-style: normal;
+    font-size: 20px;
+    color:  rgb(65, 17, 17);
+    transition: all 0.3s ease;
+    display: inline-block;
+  
+
+}
+.saree-imgdiv .saree-img h1:hover{
+    color:  rgb(40, 8, 8);
+    transform: scale(1.1);
+    letter-spacing: 2px;
+  
+}
+.saree-img p{
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-left:190px ;
+    color: black;
+    transition: all 0.3s ease;
+    display: inline-block;
+  
+}
+.saree-img p:hover{
+   color :gray;
+  transform: translateY(-5px);
+  font-style: italic;
+
+}
+.saree-img .btn{
+    width: 130px;
+    border: 1px solid rgb(65, 17, 17);
+    border-radius: 20px;
+    background:none;
+    color: rgb(65, 17, 17);
+    font-weight: 500px;
+    transform: uppercase;
+    cursor: pointer;
+    transition: .3s linear;
+    margin-left: 170px;
+
+} .saree-img .btn:hover{
+    background-color:rgb(65, 17, 17);
+    color: whitesmoke;
+}

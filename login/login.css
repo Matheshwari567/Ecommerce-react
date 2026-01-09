@@ -1,0 +1,19 @@
+.loginmain-div{
+    height: 80vh;
+    width: 100%;
+}
+.login-div{
+    margin-top: 100px;
+    height: 500px;
+    width: 300px;
+    margin-left: 500px;
+}
+.login-ico{
+    padding: 0%;
+    margin-left: 10px;
+}
+.login-btn{
+    border: 1px solid gray;
+    background: none;
+    width: 300px;
+}
